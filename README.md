@@ -5,7 +5,7 @@
 ## Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://austinlowey.github.io" target="_blank"><img src="examples/website_preview.mp4">
+    <a href="https://austinlowey.github.io" target="_blank"><img src="examples/website_preview.gif">
   </a>
   </kbd>
 </p>
