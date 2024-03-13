@@ -611,7 +611,7 @@ small {
     line-height: 56px;
   }
   h3 {
-    padding: 20px 30px;
+    padding: 10px 30px;
     margin-bottom: 40px;
   }
   .container {
@@ -645,7 +645,7 @@ small {
   }
   h3, .container {
     position: relative;
-    top: 40px;
+    top: 64px;
   }
   section#intro {
     margin-bottom: -64px;
