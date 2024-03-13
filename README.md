@@ -4,7 +4,7 @@
 
 ## Website Preview
 
-<a href="https://austinlowey.github.io" target="_blank"><img src="examples/website_preview.gif">
+<a href="https://austinlowey.github.io" target="_blank"><img src="examples/website_preview.gif" width="800px">
 
 
 ## License 📄
