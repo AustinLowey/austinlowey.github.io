@@ -533,7 +533,6 @@ a.hoverline:hover {
   background-color: #eee;
   border-bottom: 1px solid #ddd;
   display: flex;
-  align-items: center;
 }
 
 .accordion-title h5:hover {
@@ -560,7 +559,8 @@ a.hoverline:hover {
   border-right: 8px solid transparent;
   border-top: 8px solid black;
   transition: transform 0.3s ease;
-  align-self: center;
+  display: inline-block;
+  vertical-align: -10px;
 }
 
 .arrow.expanded {
