@@ -497,11 +497,42 @@
     </section>
 
 
-
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text teal">Featured Personal Projects</h3>
       <div class="container">
+
+        <!-- New Format: -->
+        <div class="accordion">
+          
+          <!-- Project #1 -->
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <h5>Spotify Festival Playlist Generator</h5>
+            </div>
+            <div class="accordion-content">
+              <!-- Project details -->
+              <p>A music streaming web app based on Django</p>
+              <!-- Your existing detailed project description and links would go here -->
+            </div>
+          </div>
+          
+          <!-- Project #2 -->
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <h5>Survivor... (Second Project)</h5>
+            </div>
+            <div class="accordion-content">
+              <!-- Project details -->
+              <p>A music streaming web app based on Django</p>
+              <!-- Your existing detailed project description and links would go here -->
+            </div>
+          </div>
+          
+        </div>
+
+        
+        <!-- Original Format: -->
         <div class="row">
 
           <!-- Project #1 -->
@@ -626,9 +657,9 @@
               </div>
             </div>
           </div>
-          
-          <!-- ************* -->
         </div>
+        -->
+      
       </div>
     </section>
 
@@ -927,6 +958,24 @@
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       })
     })
+  </script>
+
+  <!-- Accordion JavaScript (for project section) code -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var acc = document.getElementsByClassName("accordion-title");
+    for (var i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  });
   </script>
 </body>
 
