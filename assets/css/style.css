@@ -313,7 +313,7 @@ h3 {
 }
 
 .full-height {
-  height: 85vh;
+  height: 100vh;
 }
 
 /* Original */
@@ -570,7 +570,7 @@ a.hoverline:hover {
 }
 
 #projects .container {
-  min-height: 100vh;
+  min-height: 85vh;
 }
 
 */ End of accordion CSS content that was added */
