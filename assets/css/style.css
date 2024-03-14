@@ -562,7 +562,7 @@ a.hoverline:hover {
 }
 
 .arrow.expanded {
-  transform: rotate(90deg); /* Rotate the triangle (aka arrow) */
+  transform: rotate(-90deg); /* Rotate the triangle (aka arrow) */
 }
 
 */ End of accordion CSS content that was added */
