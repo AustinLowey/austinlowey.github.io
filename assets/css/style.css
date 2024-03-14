@@ -569,6 +569,10 @@ a.hoverline:hover {
   transform: rotate(-90deg); /* Rotate the triangle (aka arrow) */
 }
 
+#projects .container {
+  min-height: 1000px;
+}
+
 */ End of accordion CSS content that was added */
 */ ------------------------------------------- */
 
