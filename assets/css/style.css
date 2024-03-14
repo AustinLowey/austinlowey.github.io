@@ -533,7 +533,6 @@ a.hoverline:hover {
   background-color: #eee;
   border-bottom: 1px solid #ddd;
   display: flex;
-  color: #009688;
 }
 
 .accordion-title h5:hover {
@@ -604,6 +603,10 @@ small {
 
 .teal-text {
   color: #008073 !important;
+}
+
+.light-teal-text {
+  color: #009688 !important;
 }
 
 /* .teal-text {
