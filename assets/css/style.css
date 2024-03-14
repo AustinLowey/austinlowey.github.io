@@ -518,9 +518,34 @@ a.hoverline:hover {
   height: auto;
 }
 
+*/ class="card medium" used for original #projects section format */
 .card.medium .card-image {
   height: 240px;
 }
+
+*/ ------------------------------------------------------- */
+*/ class="accordion" used for new #projects section format */
+
+.accordion-title h5 {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-content {
+  display: none;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.accordion-content p, .accordion-content ul {
+  margin: 0;
+}
+
+*/ End of accordion CSS content that was added */
+*/ ------------------------------------------- */
 
 .card-action a.btn-floating {
   margin-bottom: 0;
