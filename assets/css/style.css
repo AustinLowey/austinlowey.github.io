@@ -562,7 +562,7 @@ a.hoverline:hover {
   transition: transform 0.3s ease;
   display: inline-block;
   vertical-align: 3px;
-  color: #008073 !important;
+  border-top-color: #008073 !important;
 }
 
 .arrow.expanded {
