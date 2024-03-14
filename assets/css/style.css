@@ -570,7 +570,7 @@ a.hoverline:hover {
 }
 
 #projects .container {
-  min-height: 1000px;
+  min-height: 100vh;
 }
 
 */ End of accordion CSS content that was added */
