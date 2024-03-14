@@ -533,11 +533,13 @@ a.hoverline:hover {
   background-color: #eee;
   border-bottom: 1px solid #ddd;
   display: flex;
+  color: #009688;
 }
 
 .accordion-title h5:hover {
   cursor: pointer;
   text-decoration: underline;
+  color: #00796b;
 }
 
 .accordion-content {
