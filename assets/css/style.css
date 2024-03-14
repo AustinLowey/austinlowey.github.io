@@ -534,6 +534,11 @@ a.hoverline:hover {
   border-bottom: 1px solid #ddd;
 }
 
+.accordion-title h5:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
 .accordion-content {
   display: none;
   padding: 20px;
