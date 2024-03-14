@@ -549,6 +549,21 @@ a.hoverline:hover {
   margin: 0;
 }
 
+.arrow {
+  display: inline-block;
+  margin-left: 5px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black; /* Triangle pointing down */
+  transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+.arrow.expanded {
+  transform: rotate(180deg); /* Flip the triangle to point up */
+}
+
 */ End of accordion CSS content that was added */
 */ ------------------------------------------- */
 
