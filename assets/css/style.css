@@ -555,10 +555,11 @@ a.hoverline:hover {
   margin-left: 5px;
   width: 0; 
   height: 0; 
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid black;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid black;
   transition: transform 0.3s ease;
+  align-self: center;
 }
 
 .arrow.expanded {
