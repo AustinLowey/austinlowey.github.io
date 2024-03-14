@@ -537,7 +537,7 @@ a.hoverline:hover {
 
 .accordion-title h5:hover {
   cursor: pointer;
-  background-color: #ccc;
+  text-decoration: underline;
 }
 
 .accordion-content {
@@ -560,7 +560,7 @@ a.hoverline:hover {
   border-top: 8px solid black;
   transition: transform 0.3s ease;
   display: inline-block;
-  vertical-align: 10px;
+  vertical-align: 3px;
 }
 
 .arrow.expanded {
