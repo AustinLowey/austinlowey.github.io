@@ -555,12 +555,12 @@ a.hoverline:hover {
   height: 0; 
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid black; /* Triangle pointing down */
-  transition: transform 0.3s ease; /* Smooth transformation */
+  border-top: 5px solid black;
+  transition: transform 0.3s ease;
 }
 
 .arrow.expanded {
-  transform: rotate(180deg); /* Flip the triangle to point up */
+  transform: rotate(90deg); /* Rotate the triangle (aka arrow) */
 }
 
 */ End of accordion CSS content that was added */
