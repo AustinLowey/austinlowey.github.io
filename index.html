@@ -973,6 +973,12 @@
         } else {
           content.style.display = "block";
         }
+  
+        // Find the .arrow within the clicked .accordion-title and toggle the .expanded class
+        var arrow = this.querySelector('.arrow');
+        if (arrow) {
+          arrow.classList.toggle('expanded');
+        }
       });
     }
   });
