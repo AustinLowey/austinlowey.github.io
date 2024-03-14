@@ -536,7 +536,6 @@ a.hoverline:hover {
 
 .accordion-title h5:hover {
   cursor: pointer;
-  background-color: #ddd;
 }
 
 .accordion-content {
