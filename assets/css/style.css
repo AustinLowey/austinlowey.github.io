@@ -532,6 +532,8 @@ a.hoverline:hover {
   margin: 0;
   background-color: #eee;
   border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
 }
 
 .accordion-title h5:hover {
