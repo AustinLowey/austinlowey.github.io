@@ -564,13 +564,13 @@ a.hoverline:hover {
 }
 
 .accordion-content ul {
-  list-style-type: disc; /* Default bullet style, adjust as needed */
-  padding-left: 20px; /* Adjust for indentation */
+  list-style-type: disc #!important;
+  padding-left: 20px #!important;
 }
 
 .accordion-content ul ul {
-  list-style-type: circle; /* Different bullet style for nested lists */
-  padding-left: 40px; /* Increased indentation for nested list items */
+  list-style-type: circle #!important;
+  padding-left: 40px #!important;
 }
 
 .arrow {
@@ -596,8 +596,8 @@ a.hoverline:hover {
 }
 
 .project-img {
-  width: 100%;
-  height: auto;
+  height: 30vh;
+  width: auto;
 }
 
 */ End of accordion CSS content that was added */
