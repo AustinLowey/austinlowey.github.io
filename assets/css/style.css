@@ -563,6 +563,16 @@ a.hoverline:hover {
   margin: 0;
 }
 
+.accordion-content ul {
+  list-style-type: disc; /* Default bullet style, adjust as needed */
+  padding-left: 20px; /* Adjust for indentation */
+}
+
+.accordion-content ul ul {
+  list-style-type: circle; /* Different bullet style for nested lists */
+  padding-left: 40px; /* Increased indentation for nested list items */
+}
+
 .arrow {
   display: inline-block;
   margin-right: 5px;
