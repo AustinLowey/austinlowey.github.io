@@ -123,6 +123,13 @@
   color: #00796b;
   background-color: white;
 }
+
+@media (max-width: 768px) {
+  .readme, .contactme {
+    padding: 11px 35px;
+  }
+}
+
 /* main body */
 
 /* body-color */
