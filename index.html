@@ -967,6 +967,17 @@
     }
   });
   </script>
+
+  <!-- Dynamically match button 1 width to button 2 width in Intro section -->
+  <script>
+  window.onload = function() {
+    var contactMeButton = document.querySelector('.contactme');
+    var readMeButton = document.querySelector('.readme');
+    var contactMeButtonWidth = contactMeButton.offsetWidth;
+  
+    readMeButton.style.width = contactMeButtonWidth + 'px';
+  };
+  </script>
 </body>
 
 </html>
