@@ -81,6 +81,15 @@
 
 /* Buttons - Read Me, Contact Us */
 
+.buttons {
+  display: flex;  /* Makes both buttons grow equally to fill the container */
+}
+
+.readme, .contactme {
+  flex-grow: 1; /* Makes both buttons grow equally to fill the container */
+  margin: 5px; 
+}
+
 .readme {
   position: relative;
   padding: 11px 35px;
