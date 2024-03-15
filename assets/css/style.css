@@ -296,6 +296,11 @@ li.logo span {
 
 .container {
   width: 95%;
+  background-color: white;
+}
+
+#intro .container {
+  background-color: transparent;
 }
 
 h3 {
