@@ -585,9 +585,16 @@ a.hoverline:hover {
   min-height: 85vh;
 }
 
-.project-img {
+/* .project-img {
   height: 30vh;
   width: auto;
+} */
+
+.project-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 */ End of accordion CSS content that was added */
