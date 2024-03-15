@@ -84,7 +84,7 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  width: 160px;
+  min-width: 160px;
   text-align: center;
   background: #fff;
   color: #00796b;
@@ -105,7 +105,7 @@
 .contactme {
   position: relative;
   padding: 11px 35px;
-  width: 160px;
+  min-width: 160px;
   text-align: center;
   background: none;
   color: #fff;
@@ -296,6 +296,7 @@ li.logo span {
 
 .container {
   width: 95%;
+  background-color: white;
 }
 
 h3 {
