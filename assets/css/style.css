@@ -602,7 +602,7 @@ a.hoverline:hover {
   margin-left: 0;
 }
 
-.project-img, .project-img-with-text {
+.project-img, .project-img-with-text .ml-project-img-with-text{
   text-align: left;
 }
 
@@ -621,6 +621,23 @@ a.hoverline:hover {
 
 .spotify-gui-screens-img {
   max-width: 100%; /* Same as above comment, but with "last-child */
+}
+
+.project-img-with-text:first-child {
+  flex-basis: 47%;
+  margin-right: 5vw
+}
+
+.project-img-with-text:last-child {
+  flex-basis: 47%;
+}
+
+.ml-data-collection-img {
+  max-width: 100%;
+}
+
+.ml-predictions-img {
+  max-width: 100%;
 }
 
 .ocr-project-concept-img {
