@@ -608,11 +608,11 @@ a.hoverline:hover {
     color: #007BFF; /* Bright blue */
 }
 
-.accordion-content a.text-link::before {
+/* .accordion-content a.text-link::before {
     content: "\1F517"; /* Unicode for a hyperlink symbol */
     display: inline-block;
     margin-right: 5px;
-}
+} */
 
 */ End of accordion CSS content that was added */
 */ ------------------------------------------- */
