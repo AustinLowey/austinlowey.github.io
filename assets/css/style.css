@@ -604,8 +604,18 @@ a.hoverline:hover {
   max-width: 50%;
 }
 
+.ocr-project-concept-img {
+  max-width: 80%;
+}
+
 .accordion-content a {
     color: #007BFF; /* Bright blue */
+}
+
+.inline-icon {
+  width: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 /* .accordion-content a.text-link::before {
