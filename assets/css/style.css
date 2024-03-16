@@ -607,12 +607,12 @@ a.hoverline:hover {
 }
 
 .project-img-with-text:first-child {
-  flex-basis: 33%;
+  flex-basis: 32%;
   margin-right: 5vw
 }
 
 .project-img-with-text:last-child {
-  flex-basis: 60%;
+  flex-basis: 61%;
 }
 
 .spotify-demo-video-img {
