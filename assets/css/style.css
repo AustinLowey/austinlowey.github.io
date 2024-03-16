@@ -627,11 +627,6 @@ a.hoverline:hover {
   max-width: 80%;
 }
 
-@media (max-width: 768px) {
-  .ocr-project-concept-img {
-    max-width: 100%;
-  }
-
 .accordion-content a {
     color: #007BFF; /* Bright blue */
 }
