@@ -591,15 +591,21 @@ a.hoverline:hover {
 } */
 
 .project-img img {
-  max-width: 40%;
   height: auto;
   display: block;
   margin-left: 0;
 }
 
+.spotify-demo-video-img {
+  max-width: 30%;
+}
+
+.spotify-gui-screens-img {
+  max-width: 50%;
+}
+
 .accordion-content a {
     color: #007BFF; /* Bright blue */
-    font-weight: bold;
 }
 
 .accordion-content a::before {
