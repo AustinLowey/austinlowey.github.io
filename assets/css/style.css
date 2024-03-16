@@ -608,10 +608,12 @@ a.hoverline:hover {
 
 .project-img-with-text:first-child {
   flex-basis: 30%;
+  max-width: 30%;
 }
 
 .project-img-with-text:last-child {
   flex-basis: 50%;
+  max-width: 50%;
 }
 
 .ocr-project-concept-img {
