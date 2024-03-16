@@ -597,6 +597,17 @@ a.hoverline:hover {
   margin: 0 auto;
 }
 
+.accordion-content a {
+    color: #007BFF; /* Bright blue */
+    font-weight: bold;
+}
+
+.accordion-content a::before {
+    content: "\1F517"; /* Unicode for a hyperlink symbol */
+    display: inline-block;
+    margin-right: 5px;
+}
+
 */ End of accordion CSS content that was added */
 */ ------------------------------------------- */
 
