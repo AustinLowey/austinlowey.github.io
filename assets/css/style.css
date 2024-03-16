@@ -608,11 +608,11 @@ a.hoverline:hover {
 
 .project-img-with-text:first-child {
   flex-basis: 30%;
-  margin-right: 2vw
+  margin-right: 10vw
 }
 
 .project-img-with-text:last-child {
-  flex-basis: 50%;
+  flex-basis: 55%;
 }
 
 .spotify-demo-video-img {
