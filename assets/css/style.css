@@ -590,10 +590,21 @@ a.hoverline:hover {
   width: auto;
 } */
 
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .project-img img {
   height: auto;
   display: block;
   margin-left: 0;
+}
+
+.project-img, .project-img-with-text {
+  flex: 1;
+  text-align: left;
 }
 
 .spotify-demo-video-img {
