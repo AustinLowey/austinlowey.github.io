@@ -592,7 +592,7 @@ a.hoverline:hover {
 
 .images-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
@@ -608,6 +608,7 @@ a.hoverline:hover {
 
 .project-img-with-text:first-child {
   flex-basis: 30%;
+  margin-right: 2vw
 }
 
 .project-img-with-text:last-child {
