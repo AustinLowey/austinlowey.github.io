@@ -594,7 +594,7 @@ a.hoverline:hover {
   max-width: 40%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin-left: 0;
 }
 
 .accordion-content a {
