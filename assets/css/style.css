@@ -563,6 +563,11 @@ a.hoverline:hover {
   margin: 0;
 }
 
+.accordion-content ul ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
 .arrow {
   display: inline-block;
   margin-right: 5px;
