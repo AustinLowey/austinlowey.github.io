@@ -684,6 +684,13 @@ a.hoverline:hover {
 */ End of accordion CSS content that was added */
 */ ------------------------------------------- */
 
+@media screen and (min-width: 769px) {
+  #experience .card {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+}
+
 .card-action a.btn-floating {
   margin-bottom: 0;
 }
