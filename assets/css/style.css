@@ -624,12 +624,12 @@ a.hoverline:hover {
 }
 
 .ml-project-img-with-text:first-child {
-  flex-basis: 47%;
-  margin-right: 5vw
+  flex-basis: 95%;
+  /* margin-right: 5vw */
 }
 
 .ml-project-img-with-text:last-child {
-  flex-basis: 47%;
+  /* flex-basis: 47%; */
 }
 
 .ml-data-collection-img {
