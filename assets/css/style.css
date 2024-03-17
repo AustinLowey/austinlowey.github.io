@@ -386,7 +386,7 @@ h3 {
   background-color: rgba(33, 150, 243, 0.2);
 }
 
-#about .accordion-content > ul > li > ul {
+#about .accordion-content > ul {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 30px;
