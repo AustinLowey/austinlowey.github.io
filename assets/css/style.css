@@ -623,12 +623,12 @@ a.hoverline:hover {
   max-width: 100%; /* Same as above comment, but with "last-child */
 }
 
-.project-img-with-text:first-child {
+.ml-project-img-with-text:first-child {
   flex-basis: 47%;
   margin-right: 5vw
 }
 
-.project-img-with-text:last-child {
+.ml-project-img-with-text:last-child {
   flex-basis: 47%;
 }
 
