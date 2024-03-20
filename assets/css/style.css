@@ -653,7 +653,7 @@ a.hoverline:hover {
 }
 
 .survivor-v2-predictions-img {
-  max-width:70%;
+  max-width:50%;
 }
 
 @media (max-width: 768px) {
