@@ -649,11 +649,17 @@ a.hoverline:hover {
 }
 
 .ml-predictions-img {
-  max-width: 95%;
+  max-width: 100%;
 }
 
 .survivor-v2-predictions-img {
+  max-width:70%;
+}
+
+@media (max-width: 768px) {
+  .survivor-v2-predictions-img {
   max-width:100%;
+  }
 }
 
 .ocr-project-concept-img {
