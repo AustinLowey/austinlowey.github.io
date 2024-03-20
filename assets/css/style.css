@@ -652,6 +652,10 @@ a.hoverline:hover {
   max-width: 100%;
 }
 
+.survivor-v2-predictions-img {
+  max-width:100%;
+}
+
 .ocr-project-concept-img {
   max-width: 80%;
 }
