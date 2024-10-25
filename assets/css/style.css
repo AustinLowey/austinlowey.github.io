@@ -513,7 +513,7 @@ a.hoverline:hover {
   max-height: 100px;
   padding-bottom: 10px;
   text-align: center;
-  vertical-align: left;
+  vertical-align: middle;
   display: table-cell;
 }
 
