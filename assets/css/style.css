@@ -582,9 +582,15 @@ a.hoverline:hover {
     text-indent: -0.3em;
 }
 
-/* Remove inherited padding for lines in accordion */
-.accordion-content .images-container li {
-  padding-left: 0;
+/* Remove inherited padding for project paragraphs */
+.accordion-content ul li .project-img p {
+  padding-left: 0; 
+  text-indent: 0;
+}
+
+/* Remove inherited padding for image containers */
+.accordion-content .images-container {
+  padding-left: 0; 
   text-indent: 0;
 }
 
