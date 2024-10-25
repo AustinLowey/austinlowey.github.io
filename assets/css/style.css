@@ -671,6 +671,15 @@ a.hoverline:hover {
   }
 }
 
+.data-pipeline-img {
+  max-width: 80%;
+}
+@media (max-width: 768px) {
+  .data-pipeline-img {
+    max-width: 100%;
+  }
+}
+
 .accordion-content a {
     color: #007BFF; /* Bright blue */
 }
