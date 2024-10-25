@@ -575,6 +575,12 @@ a.hoverline:hover {
     padding-inline-start: 30px;
 }
 
+.accordion-content ul li {
+  list-style-position: outside; /* Keeps the bullet outside */
+  padding-left: 1em; /* Adds space to align text with the bullet */
+  text-indent: -1em; /* Moves the text back to align with the bullet */
+}
+
 .arrow {
   display: inline-block;
   margin-right: 5px;
