@@ -583,7 +583,12 @@ a.hoverline:hover {
 }
 
 .accordion-content ul li .project-img p {
-  padding-left: 0; /* Ensure project paragraphs don’t inherit additional padding */
+  padding-left: 0; /* Remove padding from project paragraphs */
+  text-indent: 0;
+}
+
+.accordion-content .images-container {
+  padding-left: 0; /* Remove padding from project paragraphs */
   text-indent: 0;
 }
 
