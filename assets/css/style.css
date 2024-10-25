@@ -684,7 +684,7 @@ a.hoverline:hover {
 }
 
 .data-pipeline-img {
-  max-width: 80%;
+  max-width: 70%;
 }
 @media (max-width: 768px) {
   .data-pipeline-img {
