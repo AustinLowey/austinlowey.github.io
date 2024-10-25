@@ -569,16 +569,17 @@ a.hoverline:hover {
   margin: 0;
 }
 
-.accordion-content > ul > li > ul {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 30px;
-}
-
 .accordion-content ul li {
   list-style-position: outside;
   padding-left: 0.6em;
   text-indent: -0.6em;
+}
+
+.accordion-content > ul > li > ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 0.3em;
+    text-indent: -0.3em;
 }
 
 .arrow {
