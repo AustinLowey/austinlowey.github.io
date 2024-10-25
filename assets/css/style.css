@@ -571,8 +571,8 @@ a.hoverline:hover {
 
 .accordion-content ul li {
   list-style-position: outside;
-  padding-left: 0.6em;
-  text-indent: -0.6em;
+  padding-left: 0.65em;
+  text-indent: -0.65em;
 }
 
 .accordion-content > ul > li > ul {
