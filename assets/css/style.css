@@ -632,6 +632,18 @@ a.hoverline:hover {
   flex-basis: 61%;
 }
 
+/* Default styling */
+.demo-video-text u::before {
+  content: "Demo Video:";
+}
+
+/* Mobile styling for screen widths 600px or less */
+@media (max-width: 600px) {
+  .demo-video-text u::before {
+    content: "Demo:";
+  }
+}
+
 .spotify-demo-video-img {
   max-width: 100%; /* To change size, modify .project-img-with-text:first-child, this image's container */
 }
