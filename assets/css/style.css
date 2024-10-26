@@ -619,7 +619,7 @@ a.hoverline:hover {
   margin-left: 0;
 }
 
-.project-img, .project-img-with-text .ml-project-img-with-text{
+.project-img, .project-img-with-text .ml-project-img-with-text .pf-project-img-with-text{
   text-align: left;
 }
 
@@ -656,6 +656,23 @@ a.hoverline:hover {
 }
 
 .spotify-gui-screens-img {
+  max-width: 100%; /* Same as above comment, but with "last-child */
+}
+
+.pf-project-img-with-text:first-child {
+  flex-basis: 43%;
+  margin-right: 5vw
+}
+
+.pf-project-img-with-text:last-child {
+  flex-basis: 50%;
+}
+
+.projection-plot-img {
+  max-width: 100%; /* To change size, modify .project-img-with-text:first-child, this image's container */
+}
+
+.sankey-plot-img {
   max-width: 100%; /* Same as above comment, but with "last-child */
 }
 
