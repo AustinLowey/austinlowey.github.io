@@ -575,6 +575,11 @@ a.hoverline:hover {
   text-indent: -0.67em;
 }
 
+.accordion-content ul li ul li {
+  padding-left: 0.3em;
+  text-indent: -0.3em;
+}
+
 .arrow {
   display: inline-block;
   margin-right: 5px;
