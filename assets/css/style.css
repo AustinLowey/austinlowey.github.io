@@ -576,10 +576,8 @@ a.hoverline:hover {
 }
 
 .accordion-content > ul > li > ul {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-left: 0.3em; /* Less padding for nested lists */
-  text-indent: -0.3em; /* Matches padding for alignment */
+  margin: 0;
+  padding-left: 1.5em;
 }
 
 .arrow {
