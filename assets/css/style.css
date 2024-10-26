@@ -619,12 +619,12 @@ a.hoverline:hover {
 }
 
 .project-img-with-text:first-child {
-  flex-basis: 32%;
+  flex-basis: 34%;
   margin-right: 5vw
 }
 
 .project-img-with-text:last-child {
-  flex-basis: 61%;
+  flex-basis: 59%;
 }
 
 .spotify-demo-video-img {
