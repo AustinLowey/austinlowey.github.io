@@ -571,8 +571,8 @@ a.hoverline:hover {
 
 .accordion-content ul li.indented-li {
   list-style-position: outside;
-  padding-left: 0.7em;
-  text-indent: -0.7em;
+  padding-left: 0.67em;
+  text-indent: -0.67em;
 }
 
 .arrow {
@@ -620,7 +620,7 @@ a.hoverline:hover {
 
 .project-img-with-text:first-child {
   flex-basis: 32%;
-  margin-right: 50vw
+  margin-right: 5vw
 }
 
 .project-img-with-text:last-child {
