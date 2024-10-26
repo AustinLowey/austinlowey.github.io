@@ -637,7 +637,7 @@ a.hoverline:hover {
 }
 
 /* Mobile styling for screen widths 600px or less */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .demo-video-text::after {
     content: "Demo:"; /* Mobile-specific text */
   }
