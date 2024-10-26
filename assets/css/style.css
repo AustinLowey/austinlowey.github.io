@@ -660,12 +660,12 @@ a.hoverline:hover {
 }
 
 .pf-project-img-with-text:first-child {
-  flex-basis: 43%;
-  margin-right: 5vw
+  flex-basis: 52%;
+  margin-right: 3vw
 }
 
 .pf-project-img-with-text:last-child {
-  flex-basis: 50%;
+  flex-basis: 41%;
 }
 
 .projection-plot-img {
