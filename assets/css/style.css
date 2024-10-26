@@ -569,29 +569,10 @@ a.hoverline:hover {
   margin: 0;
 }
 
-.accordion-content ul li {
+.accordion-content ul li.indented-li {
   list-style-position: outside;
   padding-left: 0.7em;
   text-indent: -0.7em;
-}
-
-.accordion-content > ul > li > ul {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-left: 0.3em;
-    text-indent: -0.3em;
-}
-
-/* Remove inherited padding for project paragraphs */
-.accordion-content ul li .project-img p {
-  padding-left: 0; 
-  text-indent: 0;
-}
-
-/* Remove inherited padding for image containers */
-.accordion-content .images-container {
-  padding-left: 0; 
-  text-indent: 0;
 }
 
 .arrow {
