@@ -594,6 +594,17 @@ a.hoverline:hover {
   text-indent: 0;
 }
 
+/* Remove indentation from project image containers */
+.project-img, .ml-project-img-with-text, .project-img-with-text {
+  padding-left: 0;
+}
+
+/* Specifically target image captions within project-img elements */
+.project-img p, .ml-project-img-with-text p, .project-img-with-text p {
+  text-indent: 0;
+  padding-left: 0;
+}
+
 .arrow {
   display: inline-block;
   margin-right: 5px;
