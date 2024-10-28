@@ -895,7 +895,7 @@ small {
     margin: 30px 0 0;
   }
   #intro .caption h5 {
-    font-size: 0.9em !important;
+    font-size: 1.3em !important;
   }
   #intro.section .container *:not(span) {
     padding: 0;
